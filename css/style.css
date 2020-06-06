@@ -1,3 +1,12 @@
+body{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
 .navbar-light{
     background-color: #006AA7 !important;
 }
@@ -256,4 +265,291 @@ footer a:hover{
 
 .flip-card-back h1{
     margin-top: 10px;
+}
+
+
+
+
+/*  G E O G R A F I E  */
+
+/* Button - nastavení mapy */
+.btn-primary{
+    background-color: #006AA7 !important;
+}
+
+/* Modal pro nastavení mapy */
+.modal-body select {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 25px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Viditelnost krajských měst */
+.onoffswitch1 {
+    margin: auto;
+    position: relative; width: 150px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch1-checkbox {
+    display: none;
+}
+.onoffswitch1-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 15px;
+}
+.onoffswitch1-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch1-inner:before, .onoffswitch1-inner:after {
+    display: block; float: left; width: 50%; height: 37px; padding: 0; line-height: 37px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch1-inner:before {
+    content: "Ano";
+    padding-left: 22px;
+    background-color: #006AA7; color: #FFFFFF;
+}
+.onoffswitch1-inner:after {
+    content: "Ne";
+    padding-right: 10px;
+    background-color: #FECC00; color: black;
+    text-align: right;
+}
+.onoffswitch1-switch {
+    display: block; width: 14px; margin: 13px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 109px;
+    border: 2px solid #999999; border-radius: 15px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch1-checkbox:checked + .onoffswitch1-label .onoffswitch1-inner {
+    margin-left: 0;
+}
+.onoffswitch1-checkbox:checked + .onoffswitch1-label .onoffswitch1-switch {
+    right: 0px; 
+}
+
+/* Brick field */
+.onoffswitch2 {
+    margin: auto;
+    position: relative; width: 150px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch2-checkbox {
+    display: none;
+}
+.onoffswitch2-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 15px;
+}
+.onoffswitch2-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch2-inner:before, .onoffswitch2-inner:after {
+    display: block; float: left; width: 50%; height: 37px; padding: 0; line-height: 37px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch2-inner:before {
+    content: "Ano";
+    padding-left: 22px;
+    background-color: #006AA7; color: #FFFFFF;
+}
+.onoffswitch2-inner:after {
+    content: "Ne";
+    padding-right: 22px;
+    background-color: #FECC00; color: black;
+    text-align: right;
+}
+.onoffswitch2-switch {
+    display: block; width: 14px; margin: 13px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 109px;
+    border: 2px solid #999999; border-radius: 10px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch2-checkbox:checked + .onoffswitch2-label .onoffswitch2-inner {
+    margin-left: 0;
+}
+.onoffswitch2-checkbox:checked + .onoffswitch2-label .onoffswitch2-switch {
+    right: 0px; 
+}
+
+
+/*  Cursor visibility  */
+.onoffswitch3 {
+    margin: auto;
+    position: relative; width: 150px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch3-checkbox {
+    display: none;
+}
+.onoffswitch3-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 15px;
+}
+.onoffswitch3-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch3-inner:before, .onoffswitch3-inner:after {
+    display: block; float: left; width: 50%; height: 37px; padding: 0; line-height: 37px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch3-inner:before {
+    content: "Ano";
+    padding-left: 22px;
+    background-color: #006AA7; color: #FFFFFF;
+}
+.onoffswitch3-inner:after {
+    content: "Ne";
+    padding-right: 22px;
+    background-color: #FECC00; color: black;
+    text-align: right;
+}
+.onoffswitch3-switch {
+    display: block; width: 14px; margin: 13px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 109px;
+    border: 2px solid #999999; border-radius: 10px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch3-checkbox:checked + .onoffswitch3-label .onoffswitch3-inner {
+    margin-left: 0;
+}
+.onoffswitch3-checkbox:checked + .onoffswitch3-label .onoffswitch3-switch {
+    right: 0px; 
+}
+
+/* Mapa */
+svg{
+    margin-left: -200px;
+}
+
+/* Míra zalidnění - legenda */
+#mz-legenda span, #mn-legenda span, #hdp-legenda span, #szs-legenda span{
+    border: 1px solid black;
+    padding: 10px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.mz1{
+    background-color: #E1E1FF;
+}
+.mz2{
+    background-color: #CDCDFF;
+}
+.mz3{
+    background-color: #A5A5FF;
+}
+.mz4{
+    background-color: #7373FF;
+}
+.mz5{
+    background-color: #2D2DFF;
+}
+.mz6{
+    background-color: #0000FA;
+}
+
+/* Mapa nezaměstnanosti */
+.mn1{
+    background-color: #98D5BB;
+}
+.mn2{
+    background-color: #83CEC2;
+}
+.mn3{
+    background-color: #6ABDC5;
+}
+.mn4{
+    background-color: #50A8C7;
+}
+.mn5{
+    background-color: #3690BE;
+}
+.mn6{
+    background-color: #1C74B0;
+}
+
+/* HDP */
+#hdp-legenda div::after{
+    content: ' SEK';
+}
+
+.hdp1{
+    background-color: #EBF1DE;
+}
+.hdp2{
+    background-color: #D8E4BD;
+}
+.hdp3{
+    background-color: #CEDEAC;
+}
+.hdp4{
+    background-color: #C4D79B;
+}
+.hdp5{
+    background-color: #B1C488;
+}
+.hdp6{
+    background-color: #9EB175;
+}
+.hdp7{
+    background-color: #778A4F;
+}
+.hdp8{
+    background-color: #4F6228;
+}
+
+/* Smrti způsobené sebevraždou */
+.szs1{
+    background-color: #FBD8BA;
+}
+.szs2{
+    background-color: #F6BA88;
+}
+.szs3{
+    background-color: #F1A15A;
+}
+.szs4{
+    background-color: #F08125;
+}
+.szs5{
+    background-color: #D86B06;
+}
+.szs6{
+    background-color: #B95811;
+}
+
+/* Aktivní prvek */
+#active h3{
+    text-align: center;
+}
+
+#active h4{
+    text-align: right;
+}
+
+#active p{
+    text-align: justify;
+} 
+
+#active .hodnoceni{
+    text-align: right;
 }
